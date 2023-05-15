@@ -5,8 +5,8 @@ public class WaterBottleTest {
     private WaterBottle waterBottle = new WaterBottle();
 
     @Test
-    public void testDrink() {
-        waterBottle.drink();
+    public void testWater() {
+        waterBottle.water();
         assertEquals(90, waterBottle.getVolume());
     }
 
