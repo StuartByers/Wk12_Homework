@@ -19,7 +19,7 @@ public class WaterBottleTest {
     @Test
     public void testFill() {
         waterBottle.empty();
-        waterBottle.fill();
+        waterBottle.full();
         assertEquals(100, waterBottle.getVolume());
     }
 }
