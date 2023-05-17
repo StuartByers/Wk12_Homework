@@ -10,6 +10,6 @@ public class Director extends Manager {
     }
 
     public double getBudget() {
-        return budget;
+        return this.budget;
     }
 }
