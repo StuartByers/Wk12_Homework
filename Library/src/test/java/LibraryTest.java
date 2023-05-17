@@ -37,7 +37,7 @@ public class LibraryTest {
     }
 
     @Test
-    public void testIsStockFull() {
+    public void testIsLibraryFull() {
         library.addBook(book1);
         assertFalse(library.isLibraryFull());
 
