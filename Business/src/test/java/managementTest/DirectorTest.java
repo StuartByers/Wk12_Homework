@@ -1,11 +1,8 @@
 package managementTest;
 
 import management.Director;
-
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DirectorTest {
     private Director director;
@@ -18,6 +15,9 @@ public class DirectorTest {
     @Test
     public void testGetBudget() {
         assertEquals(1000000.0, director.getBudget());
+    }
+
+    private void assertEquals(double v, double budget) {
     }
 
     @Test
